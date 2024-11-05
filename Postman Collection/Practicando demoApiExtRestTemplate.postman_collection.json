@@ -12,16 +12,61 @@
 				{
 					"name": "POST - Numero DNI",
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8082/v1/personaNatural?dni=06256220",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"v1",
+								"personaNatural"
+							],
+							"query": [
+								{
+									"key": "dni",
+									"value": "06256220"
+								}
+							]
+						}
 					},
 					"response": []
 				},
 				{
 					"name": "POST - Numero RUC",
 					"request": {
-						"method": "GET",
-						"header": []
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/v1/personaJuridica?ruc=10460278975",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"v1",
+								"personaJuridica"
+							],
+							"query": [
+								{
+									"key": "ruc",
+									"value": "10460278975"
+								}
+							]
+						}
 					},
 					"response": []
 				}
