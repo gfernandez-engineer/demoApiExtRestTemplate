@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "24f6c406-604a-4465-827f-a38751b28a76",
+		"name": "Practicando demoApiExtRestTemplate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "700744"
+	},
+	"item": [
+		{
+			"name": "demoApiExtRestTemplate",
+			"item": [
+				{
+					"name": "POST - Numero DNI",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "POST - Numero RUC",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
