@@ -29,6 +29,7 @@ import java.io.IOException;
         )
 
 )
+//PARA VER LA DOCU entrar a: http://localhost:8082/swagger-ui/index.html
 public class PersonaNaturalController {
 
     private final PersonaNaturalService personaNaturalService;
